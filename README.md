@@ -29,7 +29,7 @@ npm run build
 Then, start the local development server:
 
 ``` bash
-npm run serve
+npm run start
 ```
 
 This command starts a local development server and opens up a browser window.
