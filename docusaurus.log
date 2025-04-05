@@ -1,9 +1,0 @@
-
-> docusaurus-demo@0.0.0 start
-> docusaurus start
-
-[INFO] Starting the development server...
-[SUCCESS] Docusaurus website is running at: http://localhost:3000/
-[webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Client: Compiled successfully in 650.96ms
-client (webpack 5.98.0) compiled successfully
