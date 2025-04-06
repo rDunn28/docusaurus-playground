@@ -1,9 +1,9 @@
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern
- static website generator.
+ static website generator. It is mostly used as my playground for docusaurus.
 
-### Installation
+## Installation
 
 Ensure you have [Node.js](https://nodejs.org/en/download/) installed. This
  project uses Node.js version 22 or higher. You can check your version by
@@ -35,7 +35,7 @@ npm run start
 This command starts a local development server and opens up a browser window.
  Most changes are reflected live without having to restart the server.
 
-### Deployment
+## Deployment
 
 This project uses [GitHub Actions](https://docusaurus.io/docs/deployment#deploying-to-github-pages)
  for continuous deployment. When you push changes to the `main` branch, the
