@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Docs are fun',
+  title: 'All about dogs',
+  tagline: 'The best place to learn about dogs',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -48,23 +48,9 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/rDunn28/docusaurus-playground',
+            'https://rdunn28.github.io/docusaurus-playground/',
         },
-        blog: false, // {
-        //   showReadingTime: true,
-        //   feedOptions: {
-        //     type: ['rss', 'atom'],
-        //     xslt: true,
-        //   },
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/rDunn28/docusaurus-playground',
-        //   // Useful options to enforce blogging best practices
-        //   onInlineTags: 'warn',
-        //   onInlineAuthors: 'warn',
-        //   onUntruncatedBlogPosts: 'warn',
-        // },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -90,9 +76,8 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/rDunn28/docusaurus-playground',
             label: 'GitHub',
             position: 'right',
           },
@@ -131,12 +116,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/rDunn28/docusaurus-playground',
               },
             ],
           },
